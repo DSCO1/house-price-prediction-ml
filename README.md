@@ -21,5 +21,21 @@ data/
 notebooks/
 models/
 
+## 🚀 How to Use the Model
+
+After training the model, you can predict house prices using:
+
+```python
+predict_price(
+    location='Whitefield',
+    sqft=1200,
+    bath=2,
+    balcony=1,
+    bhk=2,
+    area_type='Super built-up  Area'
+)
+```
+
+
 ## Author
 Ujjawal Shrivastava
